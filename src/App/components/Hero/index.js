@@ -1,8 +1,8 @@
 import React from 'react';
 
 import LampIllustration from '../../assets/lamp.png';
-
-import { HeroContainer, Button } from './styled';
+import Button from '../Button';
+import { HeroContainer } from './styled';
 
 function Hero() {
   return (

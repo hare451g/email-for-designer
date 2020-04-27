@@ -104,15 +104,4 @@ const HeroContainer = styled.div`
   }
 `;
 
-const Button = styled.button`
-  border: none;
-  border-radius: 5px;
-  padding: 0.5rem 2rem;
-  background-color: #333333;
-  color: white;
-  font-size: 1.25rem;
-  font-family: serif;
-  font-weight: bold;
-`;
-
-export { HeroContainer, Button };
+export { HeroContainer };
