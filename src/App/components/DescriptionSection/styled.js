@@ -7,7 +7,7 @@ const DescriptionLayout = styled.div`
   grid-area: descriptions;
   background-image: url('${DescriptionBackground}');
   background-repeat: no-repeat;
-  background-position-y: -300px;
+  background-position-y: -316px;
   background-position-x: 0;
   background-size: cover;
 
@@ -39,12 +39,13 @@ const DescriptionLayout = styled.div`
   }
 
   h2 {
+    font-family: 'Gentium Book Basic', serif;
     font-size: 2rem;
   }
 
   p {
     font-size: 1.25rem;
-    font-family: serif;
+    font-family: 'Gentium Book Basic', serif;
     line-height: 1.75rem;
 
     max-width: 250px;
@@ -59,6 +60,7 @@ const DescriptionLayout = styled.div`
 
     h2 {
       width: 250px;
+      font-family: 'Gentium Book Basic', serif;
     }
   }
 
@@ -67,6 +69,7 @@ const DescriptionLayout = styled.div`
     
     h2 {
       width: 400px;
+      font-family: 'Gentium Book Basic', serif;
     }
   }
 

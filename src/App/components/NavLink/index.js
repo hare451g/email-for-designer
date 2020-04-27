@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 const NavLink = styled.a`
   font-size: 1.25rem;
-  font-family: serif;
   font-weight: bold;
   color: #6a4a39;
   text-decoration: none;

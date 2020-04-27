@@ -11,13 +11,14 @@ const Container = styled.div`
 
   p {
     font-size: 1.5rem;
+    font-family: 'Gentium Book Basic', serif;
     text-align: center;
   }
 `;
 
 const FreeTrialHeading = styled.h2`
   font-size: 2rem;
-  font-family: sans-serif;
+  font-family: 'Gentium Book Basic', serif;
 `;
 
 export { Container, FreeTrialHeading };

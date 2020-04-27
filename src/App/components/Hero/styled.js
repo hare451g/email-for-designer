@@ -30,6 +30,7 @@ const HeroContainer = styled.div`
 
   .illustration-lamp {
     grid-area: illustration-lamp;
+    padding-left: 16px;
   }
 
   .hero-content {
@@ -41,11 +42,12 @@ const HeroContainer = styled.div`
 
     > h1 {
       font-size: 3rem;
+      font-family: 'Gentium Book Basic', serif;
     }
 
     > p {
       font-size: 1.25rem;
-      font-family: sans-serif;
+      font-family: 'Gentium Book Basic', serif;
       line-height: 1.75rem;
     }
   }

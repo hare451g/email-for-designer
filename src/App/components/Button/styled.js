@@ -7,7 +7,7 @@ const StyledButton = styled.button`
   background-color: #333333;
   color: white;
   font-size: 1.25rem;
-  font-family: serif;
+  font-family: 'Gentium Book Basic', serif;
   font-weight: bold;
 `;
 
