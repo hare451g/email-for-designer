@@ -65,7 +65,7 @@ const HeroContainer = styled.div`
   .illustration-plane-big {
     background-image: url('${BigPlane}');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: contain;
     grid-area: illustration-plane-big;
   }
