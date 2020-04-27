@@ -1,7 +1,10 @@
 import React from 'react';
 
+// components
+import HomePage from './components/HomePage';
+
 function App() {
-  return <div className="App">Learn React</div>;
+  return <HomePage />;
 }
 
 export default App;
