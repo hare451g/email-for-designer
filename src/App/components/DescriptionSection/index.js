@@ -1,4 +1,5 @@
 import React from 'react';
+import FunitureScene from '../../assets/furniture.png';
 import { DescriptionLayout } from './styled';
 
 function DescriptionSection() {
@@ -21,6 +22,22 @@ function DescriptionSection() {
           your Email service? Now you can. From layers to HTML, to people's
           inbox.
         </p>
+      </div>
+      <div className="furniture">
+        <div>
+          <h2>
+            So afforable.
+            <br /> Small teams OK
+          </h2>
+          <p>
+            Some email services cost hundreds or thousands to send to a
+            not-so-large audience. We'll make sure you can stop worrying bout
+            costs and more about sending your beautiful content!
+          </p>
+        </div>
+        <div>
+          <img src={FunitureScene} />
+        </div>
       </div>
     </DescriptionLayout>
   );

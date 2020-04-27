@@ -12,7 +12,6 @@ function HomePage() {
       <TopNavigationBar />
       <Hero />
       <DescriptionSection />
-      <div className="furniture"></div>
     </HomeLayout>
   );
 }

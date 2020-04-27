@@ -15,7 +15,9 @@ const DescriptionLayout = styled.div`
   grid-template-columns: 0.8fr 0.6fr 1fr;
   grid-template-rows: 1.2fr 0.5fr 1fr;
   gap: 1px 1px;
-  grid-template-areas: "newsletter-desc . thirdparty-desc" ". desc-illustration thirdparty-desc";
+  grid-template-areas: "newsletter-desc . thirdparty-desc"
+  ". desc-illustration thirdparty-desc "
+  "furniture furniture furniture";
   grid-area: descriptions;
 
   .desc-illustration {
@@ -66,6 +68,17 @@ const DescriptionLayout = styled.div`
     h2 {
       width: 400px;
     }
+  }
+
+  .furniture {
+    grid-area: furniture;
+    background-color: #ffd9cb;
+    border-bottom: 1.5px solid #ffbdaf;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
