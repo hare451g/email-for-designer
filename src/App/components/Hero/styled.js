@@ -91,7 +91,7 @@ const HeroContainer = styled.div`
     background-image: url('${LadderIllustration}');
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: contain;
+    background-size: 200px;
   }
 
   .illustration-luggage {
