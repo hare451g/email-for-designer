@@ -6,6 +6,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 2rem 2rem;
+  padding-bottom: 4rem;
 `;
 
 const LeftContainer = styled.div`

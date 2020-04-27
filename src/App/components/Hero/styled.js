@@ -8,7 +8,7 @@ import LadderIllustration from '../../assets/ladder.png';
 
 const HeroContainer = styled.div`
   display: grid;
-  grid-template-columns: 0.6fr 0.9fr 1.1fr 1.4fr;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   
   grid-template-areas: 'illustration-lamp hero-content illustration-sun illustration-plane'
@@ -36,6 +36,7 @@ const HeroContainer = styled.div`
     grid-area: hero-content;
     display: flex;
     flex-direction: column;
+    padding-left: 2rem;
     
 
     > h1 {
@@ -58,12 +59,14 @@ const HeroContainer = styled.div`
     justify-content: center;
     align-items: flex-start;
     height: auto;
+    padding-left: 2rem;
   }
 
   .illustration-plane-big {
     background-image: url('${BigPlane}');
     background-repeat: no-repeat;
     background-position: top;
+    background-size: contain;
     grid-area: illustration-plane-big;
   }
 
@@ -72,7 +75,7 @@ const HeroContainer = styled.div`
     background-image: url('${SunIllustration}');
     background-repeat: no-repeat;
     background-position: bottom;
-    width: 400px;
+    background-size: contain;
   }
 
   .illustration-plane {
@@ -88,7 +91,7 @@ const HeroContainer = styled.div`
     background-image: url('${LadderIllustration}');
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 300px;
+    background-size: contain;
   }
 
   .illustration-luggage {
@@ -96,6 +99,8 @@ const HeroContainer = styled.div`
     background-image: url('${LuggageIllustration}');
     background-repeat: no-repeat;
     background-position: bottom center;
+    background-size: contain;
+    margin: 1rem 1rem;
   }
 `;
 
