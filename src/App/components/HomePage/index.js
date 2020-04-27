@@ -4,6 +4,7 @@ import TopNavigationBar from '../TopNavigationBar';
 import Hero from '../Hero';
 import DescriptionSection from '../DescriptionSection';
 import FreeTrialSection from '../FreeTrialSection';
+import Footer from '../Footer';
 
 // styled
 import { HomeLayout } from './styled';
@@ -15,6 +16,7 @@ function HomePage() {
       <Hero />
       <DescriptionSection />
       <FreeTrialSection />
+      <Footer />
     </HomeLayout>
   );
 }

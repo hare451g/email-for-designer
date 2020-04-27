@@ -1,7 +1,9 @@
 import React from 'react';
 
 import LetterLogo from '../../assets/logo.png';
-import { Container, LeftContainer, RightContainer, NavLink } from './styled';
+
+import NavLink from '../NavLink';
+import { Container, LeftContainer, RightContainer } from './styled';
 
 function TopNavigationBar() {
   return (
@@ -17,7 +19,7 @@ function TopNavigationBar() {
         <NavLink>Plugins</NavLink>
         <NavLink>Pricing</NavLink>
         <NavLink>Sign in</NavLink>
-        <NavLink>Free Trial</NavLink>
+        <NavLink isActive>Free Trial</NavLink>
       </RightContainer>
     </Container>
   );

@@ -26,13 +26,4 @@ const RightContainer = styled.div`
   justify-content: space-evently;
 `;
 
-const NavLink = styled.a`
-  font-size: 1.75rem;
-  font-family: serif;
-  font-weight: bold;
-  color: #6a4a39;
-  text-decoration: none;
-  padding: 0 1rem;
-`;
-
-export { Container, LeftContainer, RightContainer, NavLink };
+export { Container, LeftContainer, RightContainer };
