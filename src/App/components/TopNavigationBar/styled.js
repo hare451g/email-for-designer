@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
+  grid-area: top-navigation-bar;
+  background-color: #ffe0d0;
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -4,15 +4,14 @@ import React from 'react';
 import { HomeLayout } from './styled';
 import TopNavigationBar from '../TopNavigationBar';
 import Hero from '../Hero';
+import DescriptionSection from '../DescriptionSection';
 
 function HomePage() {
   return (
     <HomeLayout>
-      <div className="top-navigation-bar">
-        <TopNavigationBar />
-      </div>
+      <TopNavigationBar />
       <Hero />
-      <div className="descriptions"></div>
+      <DescriptionSection />
       <div className="furniture"></div>
     </HomeLayout>
   );
