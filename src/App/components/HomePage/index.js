@@ -2,11 +2,14 @@ import React from 'react';
 
 // styled
 import { HomeLayout } from './styled';
+import TopNavigationBar from '../TopNavigationBar';
 
 function HomePage() {
   return (
     <HomeLayout>
-      <div className="top-navigation-bar"></div>
+      <div className="top-navigation-bar">
+        <TopNavigationBar />
+      </div>
       <div className="hero">
         <div className="illustration-lamp"></div>
         <div className="hero-content"></div>

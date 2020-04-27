@@ -9,6 +9,7 @@ const HomeLayout = styled.div`
 
   .top-navigation-bar {
     grid-area: top-navigation-bar;
+    background-color: #ffe0d0;
   }
 
   .hero {
